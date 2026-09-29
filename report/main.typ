@@ -1,18 +1,10 @@
-#import "C:\Users\user\repos\typstp\template.typ": *
+#import "template.typ": *
+
+#include "document/front-page-sdlc.typ"
 
 #show: template
 
-#outline()
-
-#include "document/example.typ"
-
-#bibliography("sources.bib")
-
-#attachment(
-  "обязательное",
-  "Секретный DeepSeek API"
-)
-#include "document/attachment.typ"
+#include "document/report.typ"
 
 #attachment(
   "обязательное",
@@ -20,27 +12,11 @@
 )
 
 #source-text(
-  "README.md",
-  "README",
+  "../README.md",
+  "Файл README",
 )
+
 #source-text(
-  "document/attachment.typ",
-  "attachment.typ",
+  "../.gitignore",
+  "ProjectTemplate .gitignore",
 )
-#source-text(
-  "main.typ",
-  "main.typ",
-)
-
-#attachment(
-  "рекомендуемое",
-  "Самый секретный DeepSeek API"
-)
-#include "document/attachment.typ"
-
-#attachment(
-  "справочное",
-  "Наиболее секретный DeepSeek API, никто вообще не в курсе, что это"
-)
-#include "document/attachment.typ"
-

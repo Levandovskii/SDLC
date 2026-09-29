@@ -1,5 +1,6 @@
 .idea/
 theoretics/
 bin/
+target/
 obj/
 *.user

@@ -1,0 +1,6 @@
+﻿*
+!.gitignore
+!*.pdf
+!main.typ
+!document/report.typ
+!document/front-page-sdlc.typ
