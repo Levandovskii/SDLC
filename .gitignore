@@ -1,0 +1,5 @@
+.idea/
+theoretics/
+bin/
+obj/
+*.user
