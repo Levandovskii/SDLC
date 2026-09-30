@@ -1,6 +1,12 @@
-﻿*
+﻿stp/*
+!document/images/
+document/*
+target/report/*
+template.typ
+!document/
+!target/report/
 !.gitignore
-!*.pdf
 !main.typ
+!target/report/main.pdf
 !document/report.typ
 !document/front-page-sdlc.typ
